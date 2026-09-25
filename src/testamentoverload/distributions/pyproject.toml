@@ -1,0 +1,17 @@
+[project]
+name = "distributions"
+version = "0.3.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Logan Slowik", email = "logan.slowik@is4s.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+distributions = "distributions:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"

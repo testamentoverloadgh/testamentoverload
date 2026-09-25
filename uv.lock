@@ -2,7 +2,18 @@ version = 1
 revision = 3
 requires-python = ">=3.12"
 
+[manifest]
+members = [
+    "distributions",
+    "testamentoverload",
+]
+
+[[package]]
+name = "distributions"
+version = "0.3.0"
+source = { editable = "src/testamentoverload/distributions" }
+
 [[package]]
 name = "testamentoverload"
-version = "0.2.0"
+version = "0.3.0"
 source = { editable = "." }
