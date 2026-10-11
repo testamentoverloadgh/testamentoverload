@@ -1,6 +1,6 @@
 [project]
 name = "testamentoverload"
-version = "0.4.0"
+version = "0.4.4"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -16,8 +16,7 @@ cache-keys = [{ file = "pyproject.toml" }, { file = "src/**/*.rs" }, { file = "C
 
 [tool.uv.workspace]
 members = [
-    "src/testamentoverload/distributions",
-    "src/testamentoverload/model",
+    "src/testamentoverload/distributions"
 ]
 
 [build-system]
