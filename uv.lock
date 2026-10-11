@@ -5,6 +5,7 @@ requires-python = ">=3.12"
 [manifest]
 members = [
     "distributions",
+    "model",
     "testamentoverload",
 ]
 
@@ -14,6 +15,11 @@ version = "0.3.0"
 source = { editable = "src/testamentoverload/distributions" }
 
 [[package]]
+name = "model"
+version = "0.1.0"
+source = { editable = "src/testamentoverload/model" }
+
+[[package]]
 name = "testamentoverload"
-version = "0.3.0"
+version = "0.4.0"
 source = { editable = "." }
